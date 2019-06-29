@@ -47,4 +47,5 @@ class BookingView(APIView):
 class UserViewSet(viewsets.ModelViewSet):
     queryset = get_user_model().objects.all()
     serializer_class = UserSerializer
+    permission_classes = ()
     http_method_names = ['post']
