@@ -1,0 +1,7 @@
+Django==2.2.2
+djangorestframework==3.9.4
+mysqlclient==1.4.2.post1
+python-dateutil==2.8.0
+pytz==2019.1
+six==1.12.0
+sqlparse==0.3.0
